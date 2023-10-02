@@ -1,0 +1,62 @@
+:root {
+  --secondary: #d60f4b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #0e0837;
+}
+.welcome {
+  color: var(--secondary);
+}
+.main {
+  color: var(--secondary);
+}
+.available {
+  color: var(--secondary);
+  font-size: 12px;
+}
+.social-icons i {
+  color: white;
+  border-radius: 50%;
+}
+.btn {
+  background: #0567f3;
+}
+.btn-more {
+  background: #bb2d3b;
+}
+.tour {
+  background: #100726;
+}
+.our-discover {
+  color: var(--secondary);
+}
+.track-list {
+  background: linear-gradient(45deg, rgb(70, 12, 58), #0e0829, #2b0f47);
+  height: 5rem;
+  transition-property: all 8sec;
+}
+.track-list:hover {
+  background: #430622;
+}
+.release {
+  background: linear-gradient(45deg, rgb(70, 12, 58), #0e0829, #2b0f47);
+}
+
+.live {
+  color: var(--secondary);
+}
+
+.live-concert {
+  background: #0e0727;
+}
+.anim {
+  background-image: url("https://i.gifer.com/OwRt.gif") !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
